@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,13 +13,17 @@
     font-size: 35px;
   }
   .project img {
-    width: 700px;
+    width: 100%;
+    height: 90vh;
     border-radius: 10px;
   }
   
   .project p {
+    width: 100%;
     font-size: 40px;
     color: #3e497a;
+    /* overflow-wrap: break-word; */
+    word-wrap: break-word;
   }
   
   .project svg {

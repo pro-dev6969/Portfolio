@@ -1,6 +1,6 @@
 import Proj2 from '../assets/proj2.jpg';
 import Mov from '../assets/mov.webp';
-import Wp from '../assets/wallppr';
+import Wp from '../assets/wallppr.jpg';
 
 export const Projectlists = [
     {
@@ -15,7 +15,7 @@ export const Projectlists = [
     },
     {
         name: "ChatPeChat",
-        image:"Wp",
+        image: Wp,
         skills: "React JS,Node JS,Socket-IO"
     }
 ]
