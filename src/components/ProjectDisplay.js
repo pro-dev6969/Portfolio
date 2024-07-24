@@ -13,7 +13,9 @@ function ProjectDisplay() {
         <p>
             <b>Skills: {project.skills}</b>
         </p>
-        <GitHubIcon />
+        <button onClick={()=>{
+            window.location.href = project.link
+        }}> <GitHubIcon /> </button>
     </div>
   )
 }
