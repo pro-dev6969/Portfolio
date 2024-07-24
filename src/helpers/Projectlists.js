@@ -1,5 +1,5 @@
 import Proj2 from '../assets/proj2.jpg';
-import Mov from '../assets/mov.webp';
+import paytm from '../assets/paytm-01-1.webp';
 import Wp from '../assets/wallppr.jpg';
 
 export const Projectlists = [
@@ -9,9 +9,9 @@ export const Projectlists = [
         skills: "Javascript,React,Redux,NPM"
     },
     {
-        name: "Movie-Recommendation Site",
-        image: Mov,
-        skills: "Python,Flask,Machine Learning"
+        name: "Paytm Clone",
+        image: paytm,
+        skills: "ReactJS , ExpressJS , MongoDB , NodeJS"
     },
     {
         name: "ChatPeChat",
